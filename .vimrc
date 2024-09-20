@@ -5,5 +5,7 @@ syntax on
 
 let mapleader = " "
 
-nnoremap <leader>pv :Ex<CR>
 set clipboard=unnamed
+nnoremap <leader>pv :Ex<CR>
+nnoremap <leader>t :tabnext<CR>
+nnoremap <leader>b :bnext<CR>
